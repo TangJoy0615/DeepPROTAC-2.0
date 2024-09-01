@@ -1,6 +1,7 @@
 # DeepPROTAC 2.0
 
 DeepPROTAC 2.0 has expanded its dataset from the original version, introduced spatial structure information into the algorithm, updated the model, and achieved better results.
+You can visit https://bailab.siais.shanghaitech.edu.cn/services/deepprotac-db to search the data.
 
 ## Training
 
@@ -8,7 +9,7 @@ DeepPROTAC 2.0 has expanded its dataset from the original version, introduced sp
    Unzip "DeepPROTACs 2.0 code.tgz" and navigate into the directory.
 
 2. **Prepare the Data**:
-   Use the "prepare_data.ipynb" script to extract the ligase pocket, target pocket, ligase ligand, target ligand, linker, and the label from the complexes and encode them. We provide 10 example datasets for testing. The complete dataset is available at [DeepPROTAC-DB](https://bailab.siais.shanghaitech.edu.cn/services/deepprotac-db).
+   Use the "prepare_data.ipynb" script to extract the ligase pocket, target pocket, ligase ligand, target ligand, linker, and the label from the complexes and encode them. We provide 10 example datasets for testing. The complete dataset is available at [PROTAC-Databank](https://bailab.siais.shanghaitech.edu.cn/services/deepprotac-db).
 
 3. **Prepare the Environment**:
    Export our Anaconda environment using "env.yaml". Create and activate this environment with the following commands:
