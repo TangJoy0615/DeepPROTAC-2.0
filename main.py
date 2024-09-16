@@ -36,7 +36,7 @@ def main():
 
     with open(os.path.join(target_pocket.processed_dir, "smiles.pkl"),"rb") as f:
         smiles = pickle.load(f)
-    with open('no_BTK.pkl','rb') as f:
+    with open('data.pkl','rb') as f:
         name_list = pickle.load(f)
     label = torch.load(os.path.join(target_pocket.processed_dir, "label1.pt"))
 
