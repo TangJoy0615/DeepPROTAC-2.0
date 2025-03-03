@@ -14,7 +14,7 @@ You can visit https://bailab.siais.shanghaitech.edu.cn/services/deepprotac-db to
 3. **Prepare the Environment**:
    Export our Anaconda environment using "env.yaml". Create and activate this environment with the following commands:
 ```bash
-$ conda env create -f env.yaml 
+$ conda env create -f environment.yml 
 $ conda activate DeepPROTAC
 ```
 
